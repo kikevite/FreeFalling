@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">FreeFalling</string>
-    <string name="start">Start</string>
-    <string name="stop">Stop</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="push">PUSH</string>
+    <string name="release">RELEASE</string>
 </resources>

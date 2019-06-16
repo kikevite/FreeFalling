@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     private boolean isStart;
     private long ini;
     private TextView distancia, tiempo;
-    private Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         distancia = findViewById(R.id.dist);
         tiempo = findViewById(R.id.time);
         chronometer = findViewById(R.id.chronometer);
-        btn = findViewById(R.id.btn);
+        Button btn = findViewById(R.id.btn);
         btn.setBackgroundColor(Color.GREEN);
 
         chronometer.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
